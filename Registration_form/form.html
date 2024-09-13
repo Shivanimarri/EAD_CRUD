@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">           
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="name">Enter Name:</label><br/>
+            <input type="text" name="name" id="name" placeholder="John" value=""><br/> <!--name is for JS and value is for backend -->
+        </div>
+    
+        <div>
+            <label for="rollno">Roll Number: </label><br/>
+            <input type="number" name="rollno" placeholder="160122737012" id="rollno" value=""><br/>
+        </div>
+    
+        <div>
+            <label for="birthday" >Date of Birth:</label><br/>
+            <input type="date" name="dob" id="birthday" placeholder=""><br/>
+        </div>
+    
+        <div>
+            <label for="mail" >Enter gmail: </label><br/>
+            <input type="email" name="email" id="mail" placeholder="marrishivani23@gmail.com"><br/>
+        </div>
+    
+        <div>
+            <label for="pwd" >Enter Password: </label><br/>
+            <input type="password" id="pwd"><br/>
+        </div>
+    
+        <div>
+            <label for="colour" >Select your favourite colour:</label><br/>
+            <input type="color" name="favcolor" id="colour"><br/>
+        </div>
+    
+        <div>
+            <label for="dept" >Select Department:</label><br/>
+            <select name="department" id="dept">
+                <option value="">IT</option>
+                <option value="">CSE</option>
+                <option value="">ECE</option>
+                <option value="">EEE</option>
+                <option value="">CSM</option>
+            </select><br/>
+        </div>
+    
+        <div>
+            <label for="addr" >Address:</label><br/>
+            <textarea name="" id="addr" rows="5" cols="10"></textarea><br/>
+        </div>
+    
+        <div>
+            <label for="gender" >Select Gender:</label><br/>
+            <input type="radio" id="gender"> Male <br/>
+            <input type="radio" id="gender"> Female <br/>
+            <input type="radio" id="gender"> Others <br/>
+        </div>
+    
+        <div>
+            <label for="course" >Select Course:</label><br/>
+            <input type="checkbox" id="course"> DAV <br/>
+            <input type="checkbox" id="course"> MAD <br/>
+            <input type="checkbox" id="course"> SPM <br/>
+            <input type="checkbox" id="course"> CS <br/>
+        </div>
+    
+        <div>
+            <label for="myfile" >Select a file:</label><br/>
+            <input type="file" id="myfile" name="myfile"><br/>
+        </div>
+    
+        <div>
+            <input type="submit">
+            <input type="reset">
+        </div>
+    </form>
+    
+
+    </form>
+</body>
+</html>
