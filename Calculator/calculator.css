@@ -11,7 +11,7 @@
     align-items: center;
 }
 #content {
-    background: #2c302c;
+    background: #357c35;
     padding: 20px;
     border-radius: 10px;
 
@@ -27,14 +27,14 @@
     cursor: pointer;
 }
 #backspace {
-    background-color: rgb(237, 89, 30);
+    background-color: rgb(83, 73, 69);
     color: white;
 }
 #res {
     padding: 10px;
 }
 #clear {
-    background-color: rgb(237, 89, 30);
+    background-color: rgb(96, 88, 85);
     color: white;
 }
 form #output {
